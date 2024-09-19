@@ -3,7 +3,6 @@ import json
 import logging
 import boto3
 
-
 try:
     s3=boto3.client('s3',
                       aws_access_key_id='AKIA5SC6JOWW3UMMODPY',

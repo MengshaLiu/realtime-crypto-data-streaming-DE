@@ -41,3 +41,10 @@ The project leverages a variety of industry-standard tools and platforms, includ
 - **Distributed Synchronization**: Implemented a multi-broker Kafka cluster with data replication to ensure durability and prevent data loss.
 - **Pipeline Orchestration**: Apache Airflow orchestrates the pipeline, scheduling tasks for continuous data flow and processing.
 - **Schema Management**: Employed schema registry for managing Kafka stream schemas, ensuring data consistency and compatibility across different services.
+
+## Contact
+For any questions or collaborations, feel free to reach out via:
+- LinkedIn(https://linkedin.com/in/melissa-liu-b31892180)
+- GitHub: (https://github.com/MengshaLiu)
+
+This enhanced version includes a cleaner structure, highlights key outcomes, and emphasizes the project’s scalability and features. Let me know if you’d like further modifications! 

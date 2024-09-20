@@ -42,6 +42,23 @@ The project leverages a variety of industry-standard tools and platforms, includ
 - **Pipeline Orchestration**: Apache Airflow orchestrates the pipeline, scheduling tasks for continuous data flow and processing.
 - **Schema Management**: Employed schema registry for managing Kafka stream schemas, ensuring data consistency and compatibility across different services.
 
+## How to Run
+## Getting Started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/airscholar/e2e-data-engineering.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd e2e-data-engineering
+    ```
+
+3. Run Docker Compose to spin up the services:
+    ```bash
+    docker-compose up
+    ```
 ## Contact
 For any questions or collaborations, feel free to reach out via:
 - LinkedIn(https://linkedin.com/in/melissa-liu-b31892180)

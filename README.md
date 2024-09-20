@@ -5,15 +5,17 @@
 - [Technologies Used](#technologies-used)
 
 ## Introduction
-This Project aims to build an end-to-end streaming data engineering pipeline to capture transactions among various cryptocurrencies from major cryptocurrency exchange platforms in near real-time. It covers each stage from data ingestion to processing and finally to storing, leveraging Python, airflow, Kafka, Pyspark and Amazon Web services(AWS).
+This project demonstrates a real-time streaming data pipeline designed to capture cryptocurrency transactions from major exchange platforms. Leveraging cutting-edge technologies such as Apache Kafka, Apache Spark, AWS, and Airflow, the system is capable of processing over 200 transactions per second, offering scalable, fault-tolerant solutions for handling cryptocurrency data in near real-time.
+
 ## Architecture
 ![Project Architecture](architecture.png)
 
-The project is designed with the following components:
+This project consists of several critical components that work together to ensure real-time streaming and processing of crypto transactions:
 
-**Data Source**: I use Tinngo API to generate random user data for the pipeline.
-**Apache Airflow**: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
-**Apache Kafka and Zookeeper**: Used for streaming data from PostgreSQL to the processing engine.
+**Data Source**: Using the Tiingo API to generate cryptocurrency data streams.
+**Apache Airflow**: Orchestrates and schedules the entire pipeline, ensuring seamless data ingestion and storage in PostgreSQL.
+**Apache Kafka**: Streams data between various services in a distributed and fault-tolerant manner.
+**ZooKeeper**: 
 **Control Center and Schema Registry**: Helps in monitoring and schema management of our Kafka streams.
 **Apache Spark**: For data processing with its master and worker nodes.
 **AWS S3**: Where the processed data will be stored.

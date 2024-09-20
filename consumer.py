@@ -5,9 +5,9 @@ import boto3
 
 try:
     s3=boto3.client('s3',
-                      aws_access_key_id='AKIA5SC6JOWW3UMMODPY',
-                      aws_secret_access_key='u/81tTjb5H0aOJr4erLJscVVcMJzKEhmaYKmtjHX',
-                      region_name='ap-southeast-2')
+                      aws_access_key_id='YOUR_ACCESS_KEY_ID',
+                      aws_secret_access_key='/YOUR_ACCESS_SECRET',
+                      region_name='YOUR_REGION')
     consumer = KafkaConsumer('crypto_transactions',
                              bootstrap_servers=['localhost:29092', 'localhost:39092'],
                              value_deserializer=lambda x: json.loads(x.decode('utf-8')),

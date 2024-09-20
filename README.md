@@ -47,18 +47,14 @@ The project leverages a variety of industry-standard tools and platforms, includ
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/airscholar/e2e-data-engineering.git
+    git clone [https://github.com/MengshaLiu/realtime-crypto-data-streaming-DE.git]
     ```
-
-2. Navigate to the project directory:
+2. Nevigate to the project directory and Run Docker Compose to spin up the services:
     ```bash
-    cd e2e-data-engineering
+    docker-compose up -d
     ```
-
-3. Run Docker Compose to spin up the services:
-    ```bash
-    docker-compose up
-    ```
+3. Monitor your pipeline using the Airflow UI and Kafka’s Control Center.
+   
 ## Contact
 For any questions or collaborations, feel free to reach out via:
 - LinkedIn(https://linkedin.com/in/melissa-liu-b31892180)

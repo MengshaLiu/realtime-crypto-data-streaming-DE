@@ -15,8 +15,8 @@ def create_spark_conn():
         #Configure AWS Connector
         hadoop_conf = spark.sparkContext._jsc.hadoopConfiguration()
         hadoop_conf.set("fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
-        hadoop_conf.set("fs.s3a.access.key", "AKIA5SC6JOWW3UMMODPY")
-        hadoop_conf.set("fs.s3a.secret.key", "u/81tTjb5H0aOJr4erLJscVVcMJzKEhmaYKmtjHX" )
+        hadoop_conf.set("fs.s3a.access.key", "YOUR_ACCESS_KEY")
+        hadoop_conf.set("fs.s3a.secret.key", "YOUR_ACCESS_SECRET_KEY" )
 
         logging.info('Spark connection created successfully')
         spark.sparkContext.setLogLevel("ERROR")

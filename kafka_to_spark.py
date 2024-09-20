@@ -12,6 +12,7 @@ def create_spark_conn():
         .appName("CtyptotrTransactipnApp") \
         .config("spark.jars.packages","org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.4," "org.apache.hadoop:hadoop-common:3.3.4," "org.apache.hadoop:hadoop-aws:3.3.4," "com.amazonaws:aws-java-sdk-bundle:1.12.262") \
         .getOrCreate()
+        
         #Configure AWS Connector
         hadoop_conf = spark.sparkContext._jsc.hadoopConfiguration()
         hadoop_conf.set("fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")

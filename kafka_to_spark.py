@@ -60,9 +60,9 @@ if __name__=="__main__":
         transformed_df = transform_df_from_kafka(df)      
         # Write the output to console sink to check the output
         writing_df = transformed_df.writeStream \
-            .option("checkpointLocation","s3a://crypto-transaction-streaming/checkpoint_dir") \
+            .option("checkpointLocation","s3a://Bucket_name/checkpoint_dir") \
             .format("json") \
-            .option("path", "s3a://crypto-transaction-streaming/transformed") \
+            .option("path", "s3a://Bucket_name/transformed") \
             .start()
         # Start the streaming application to run until the following happens
         # 1. Exception in the running program

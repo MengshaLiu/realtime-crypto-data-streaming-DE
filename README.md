@@ -23,14 +23,14 @@ This project consists of several critical components that work together to ensur
 ## Technologies Used
 The project leverages a variety of industry-standard tools and platforms, including:
 
-**Python**: Core language for scripting and data manipulation.
-**Apache Airflow**: Task orchestration and scheduling.
-**Apache Kafka**: Distributed event streaming platform.
-**Apache Zookeeper**: Coordination service for managing Kafka nodes.
-**Schema Registry**: Ensures schema consistency in Kafka.
-**Apache Spark**: Distributed data processing.
-**Docker**: Containerization for seamless deployment.
-**AWS S3**: Cloud storage for processed data.
+- **Python**: Core language for scripting and data manipulation.
+- **Apache Airflow**: Task orchestration and scheduling.
+- **Apache Kafka**: Distributed event streaming platform.
+- **Apache Zookeeper**: Coordination service for managing Kafka nodes.
+- **Schema Registry**: Ensures schema consistency in Kafka.
+- **Apache Spark**: Distributed data processing.
+- **Docker**: Containerization for seamless deployment.
+- **AWS S3**: Cloud storage for processed data.
   
 ## Data Source
 - Tiingo API: Provides real-time cryptocurrency transaction data, covering over 8,000 tickers from major exchange platforms. [Learn more](https://www.tiingo.com/).
@@ -43,7 +43,6 @@ The project leverages a variety of industry-standard tools and platforms, includ
 - **Schema Management**: Employed schema registry for managing Kafka stream schemas, ensuring data consistency and compatibility across different services.
 
 ## How to Run
-## Getting Started
 
 1. Clone the repository:
     ```bash

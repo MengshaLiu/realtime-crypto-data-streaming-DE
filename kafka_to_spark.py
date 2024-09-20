@@ -20,8 +20,10 @@ def create_spark_conn():
 
         logging.info('Spark connection created successfully')
         spark.sparkContext.setLogLevel("ERROR")
+        
     except Exception as e:
         logging.error(f"couldn't create the spark connection due to: {e}")
+    
     return spark
 
 def conncet_to_kafka(spark_conn):
@@ -33,6 +35,7 @@ def conncet_to_kafka(spark_conn):
         .option("subscribe", "crypto_transactions") \
         .option("startingOffsets","latest") \
         .load()
+    
     return df
 
 def transform_df_from_kafka(df):
@@ -51,6 +54,7 @@ def transform_df_from_kafka(df):
         date_format(expanded_df["date"], "yyyy-MM-dd'T'HH:mm:ss.SSS"),
         expr("'+0000'"))
     ))
+    
     return transformed_df
 
 if __name__=="__main__":    
@@ -64,8 +68,6 @@ if __name__=="__main__":
             .format("json") \
             .option("path", "s3a://Bucket_name/transformed") \
             .start()
-        # Start the streaming application to run until the following happens
-        # 1. Exception in the running program
-        # 2. Manual Interruption
+
         writing_df.awaitTermination()    
 

@@ -5,7 +5,7 @@
 - [Technologies Used](#technologies-used)
 
 ## Introduction
-This Project aims to build an end-to-end streaming data engineering pipeline to capture transaction data from major cryptocurrency exchange platforms in near real-time. It covers each stage from data ingestion to processing and finally to storing, leveraging Python, airflow, Kafka, Pyspark and Amazon Web services(AWS).
+This Project aims to build an end-to-end streaming data engineering pipeline to capture transactions among various cryptocurrencies from major cryptocurrency exchange platforms in near real-time. It covers each stage from data ingestion to processing and finally to storing, leveraging Python, airflow, Kafka, Pyspark and Amazon Web services(AWS).
 ## Architecture
 ![Project Architecture](architecture.png)
 

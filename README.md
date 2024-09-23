@@ -3,6 +3,10 @@
 - [Introduction](#introduction)
 - [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
+- [Data Source](#data-source)
+- [Highlighted Features](#highlighted-features)
+- [How to Run](#how-to-run)
+- [Contact](#contact)
 
 ## Introduction
 This project demonstrates a real-time streaming data pipeline designed to capture cryptocurrency transactions from major exchange platforms. Leveraging cutting-edge technologies such as Apache Kafka, Apache Spark, AWS, and Airflow, the system is capable of processing over 200 transactions per second, offering scalable, fault-tolerant solutions for handling cryptocurrency data in near real-time.
@@ -35,7 +39,7 @@ The project leverages a variety of industry-standard tools and platforms, includ
 ## Data Source
 - Tiingo API: Provides real-time cryptocurrency transaction data, covering over 8,000 tickers from major exchange platforms. [Learn more](https://www.tiingo.com/).
 
-## Highlighted Outcome
+## Highlighted Features
 - **Real-Time ELT (Extract, Load, Transform)**: Achieved near real-time data ingestion, processing, and storage into AWS S3.
 - **Scalability**: Handles over 200 transactions per second, with the ability to scale dynamically based on transaction load.
 - **Distributed Synchronization**: Implemented a multi-broker Kafka cluster with data replication to ensure durability and prevent data loss.

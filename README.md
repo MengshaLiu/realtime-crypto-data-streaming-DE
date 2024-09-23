@@ -46,6 +46,10 @@ The project leverages a variety of industry-standard tools and platforms, includ
 - **Pipeline Orchestration**: Apache Airflow orchestrates the pipeline, scheduling tasks for continuous data flow and processing.
 - **Schema Management**: Employed schema registry for managing Kafka stream schemas, ensuring data consistency and compatibility across different services.
 
+## Results
+Based on a 10-minute test run, 113,125 transactions have been successfully extracted, transformed and loaded. 
+The following screen shot shows the transformed csv file:
+![sample data](sampledata.png)
 ## How to Run
 
 1. Clone the repository:

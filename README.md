@@ -53,9 +53,11 @@ The following screen shot shows the transformed csv file:
 ![sample data](sample-data.jpeg)
 
 #### Data Field Explanation
-- trade_id: Randomly generated string to identify each transaction
+- trade_id: Randomly generated string to identify each transaction.
 - ticker: A short combination of letters representing a cryptocurrency pair between which the transaction is traded. e.g. "btcusdc" for transaction traded between "btc" and "usdc".
-- exchange_platform: In which pla
+- date: A string representing the datetime this trade quote came in.
+- exchange_platform: The exchange the trade was done.
+- 
 ## How to Run
 
 1. Clone the repository:

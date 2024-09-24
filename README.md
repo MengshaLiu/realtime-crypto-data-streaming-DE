@@ -61,17 +61,15 @@ The following screen shot shows the transformed csv file:
 - trade_price: The price the trade was executed at.
 
 #### Visualization 
-![Top 10 Active Exchanges](visualisation/top-10-exchanges.jpeg)
+<li>This bar chart illustrates the top 10 Exchanges with the most transactions.</li>
+<img src="visualisation/top-10-exchanges.jpeg" alt="drawing" width="700"/>
 <br>
-This bar chart illustrates the top 10 Exchanges with the most transactions.
+<li>This dashboard indicates the top 10 frequently traded tickers and their trade statistics. </li>
+<img src="visualisation/top-10-tickers.jpeg" alt="drawing" width="700"/>
 <br>
-<br>
-![Most Frequently Traded Tickers](visualisation/top-10-tickers.jpeg)
-<br>
-- This dashboard indicates the top 10 frequently traded tickers and their trade statistics. 
-![huobi exchange](visualisation/huobi-exchange.jpeg)
-<br>
-- This dashboard provides an overview of transactions executed on specified exchange Huobi, including total transaction counts, traded tickers Proportion and trade statistics for each ticker
+<li>This dashboard provides an overview of transactions executed on specified exchange Huobi, including total transaction counts, Proportion of traded tickers and trade statistics for each ticker.</li>
+<img src="visualisation/huobi-exchange.jpeg" alt="drawing" width="700"/>
+
 ## How to Run
 
 1. Clone the repository:

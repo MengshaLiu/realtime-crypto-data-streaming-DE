@@ -60,10 +60,13 @@ The following screen shot shows the transformed csv file:
 - trade_volume: The amount of crypto volume done at the trade price of the traded-in cryptocurrency. 
 - trade_price: The price the trade was executed at.
 
-#### visualization 
-![top 10 active exchange platforms]()
-![Most frequently traded tickers]()
-
+#### Visualization 
+- **Top 10 Exchanges With the Most Transaction Counts**
+![Top 10 Active Exchanges](visualisation/top-10-exchanges.jpeg)
+- **Top 10 Tickers with the Most Transaction Counts and Their Traded Volumes and Prices**
+![Most Frequently Traded Tickers](visualisation/top-10-tickers.jpeg)
+- **For the specified exchange "huobi", the trade counts, trade volumes and trade prices of tickers**
+![huobi exchange](visualisation/huobi-exchange.jpeg)
 ## How to Run
 
 1. Clone the repository:

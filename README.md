@@ -52,12 +52,14 @@ Based on a 10-minute test run, 113,125 transactions have been successfully extra
 The following screen shot shows the transformed csv file:
 ![sample data](sample-data.jpeg)
 
-#### Data Field Explanation
+#### Data Field Explained
 - trade_id: Randomly generated string to identify each transaction.
-- ticker: A short combination of letters representing a cryptocurrency pair between which the transaction is traded. e.g. "btcusdc" for transaction traded between "btc" and "usdc".
+- ticker: A short combination of letters representing a cryptocurrency pair between which the transaction is traded. e.g. Ticker "btcusdc" reprents transaction traded "btc" for "usdc".
 - date: A string representing the datetime this trade quote came in.
-- exchange_platform: The exchange the trade was done.
-- 
+- exchange_platform: The exchange of the trade was done.
+- trade_volume: The amount of crypto volume done at the trade price of the traded-in cryptocurrency. 
+- trade_price: The price the trade was executed at.
+
 ## How to Run
 
 1. Clone the repository:

@@ -60,6 +60,10 @@ The following screen shot shows the transformed csv file:
 - trade_volume: The amount of crypto volume done at the trade price of the traded-in cryptocurrency. 
 - trade_price: The price the trade was executed at.
 
+#### visualization 
+![top 10 active exchange platforms]()
+![Most frequently traded tickers]()
+
 ## How to Run
 
 1. Clone the repository:

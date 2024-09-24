@@ -61,12 +61,17 @@ The following screen shot shows the transformed csv file:
 - trade_price: The price the trade was executed at.
 
 #### Visualization 
-- **Top 10 Exchanges With the Most Transaction Counts**
 ![Top 10 Active Exchanges](visualisation/top-10-exchanges.jpeg)
-- **Top 10 Tickers with the Most Transaction Counts and Their Traded Volumes and Prices**
+<br>
+This bar chart illustrates the top 10 Exchanges with the most transactions.
+<br>
+<br>
 ![Most Frequently Traded Tickers](visualisation/top-10-tickers.jpeg)
-- **For the specified exchange "huobi", the trade counts, trade volumes and trade prices of tickers**
+<br>
+- This dashboard indicates the top 10 frequently traded tickers and their trade statistics. 
 ![huobi exchange](visualisation/huobi-exchange.jpeg)
+<br>
+- This dashboard provides an overview of transactions executed on specified exchange Huobi, including total transaction counts, traded tickers Proportion and trade statistics for each ticker
 ## How to Run
 
 1. Clone the repository:

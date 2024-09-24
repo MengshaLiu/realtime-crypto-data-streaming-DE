@@ -61,14 +61,16 @@ The following screen shot shows the transformed csv file:
 - trade_price: The price the trade was executed at.
 
 #### Visualization 
-<li>2. Trading Pair Insights</li>
-  This bar chart illustrates the top 10 Exchanges with the most transactions
+Exchange Performance and Activity
+<li>This dashboard illustrates the top 10 Exchanges with the most transactions<l1>
+
 <img src="visualisation/top-10-exchanges.jpeg" alt="drawing" width="700"/>
 <br>
-<li>This dashboard indicates the top 10 frequently traded tickers and their trade statistics. </li>
+<li>This dashboard indicates the top 10 frequently traded tickers and their trade statistics including total trade counts, total trade volumes, average trade volumes, total trade price, and average trade price.</li>
 <img src="visualisation/top-10-tickers.jpeg" alt="drawing" width="700"/>
 <br>
-<li>This dashboard provides an overview of transactions executed on specified exchange Huobi, including total transaction counts, Proportion of traded tickers and trade statistics for each ticker.</li>
+Specific Leading Exchange
+<li>This dashboard provides an overview of the leading exchange (in terms of number of trades) "Huobi", and it shows the top ticker traded on the exchange and the trade statistics for each ticker.</li>
 <img src="visualisation/huobi-exchange.jpeg" alt="drawing" width="700"/>
 
 ## How to Run

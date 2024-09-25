@@ -72,6 +72,21 @@ This dashboard indicates the top 10 frequently traded tickers and their trade st
 <li>Specific Leading Exchange</li>
 This dashboard provides an overview of the leading exchange (in terms of number of trades) "Huobi", and it shows the top ticker traded on the exchange and the trade statistics for each ticker.
 <img src="visualisation/huobi-exchange.jpeg" alt="drawing" width="700"/>
+  
+#### Other Analysis Opportunities
+1. Volume and Price Analysis
+   - What is the relationship between trade volume and trade price across different tickers?
+   - Are there patterns or correlations between volume and price over time or by platform?
+2. Time-Based Analysis
+   -  What are the peak trading times for different platforms or tickers?
+   -  How does trade activity change over time (e.g., are there patterns over days, hours, or specific time zones)?
+3. Market Trends and Liquidity 
+   - What is the liquidity of different trading pairs, based on trade volumes?
+   - How does the price volatility of different tickers vary across platforms?
+
+4. Platform-Specific Questions
+   - Is there a platform preference for certain tickers (e.g., is a ticker primarily traded on Binance versus Huobi)?
+   - How do trade prices vary for the same ticker across different platforms?
 
 ## How to Run
 

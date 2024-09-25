@@ -50,7 +50,7 @@ The project leverages a variety of industry-standard tools and platforms, includ
 #### Sample Output
 Based on a 10-minute test run, 113,125 transactions have been successfully extracted, transformed and loaded. 
 The following screen shot shows the transformed csv file:
-![sample data](sample-data.jpeg)
+![sample data](data/sample-data.jpeg)
 
 #### Data Field Explained
 - trade_id: Randomly generated string to identify each transaction.

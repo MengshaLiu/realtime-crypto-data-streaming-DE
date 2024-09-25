@@ -66,7 +66,7 @@ This dashboard highlights the top 10 exchanges based on transaction volume. It p
 <img src="visualisation/top-10-exchanges.jpeg" alt="drawing" width="700"/>
 <be>
 <li>Trading Pair Insights</li>
-This dashboard showcases the top 10 most frequently traded tickers, along with their corresponding trade statistics.
+This dashboard showcases the top 10 most frequently traded tickers, along with their corresponding key trading statistics.
 <img src="visualisation/top-10-tickers.jpeg" alt="drawing" width="700"/>
 <be>
 <li>Specific Leading Exchange</li>
@@ -83,7 +83,6 @@ This dashboard provides an overview of the leading exchange, “Huobi,” based 
 3. Market Trends and Liquidity 
    - What is the liquidity of different trading pairs, based on trade volumes?
    - How does the price volatility of different tickers vary across platforms?
-
 4. Platform-Specific Questions
    - Is there a platform preference for certain tickers (e.g., is a ticker primarily traded on Binance versus Huobi)?
    - How do trade prices vary for the same ticker across different platforms?
